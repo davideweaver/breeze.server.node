@@ -137,7 +137,7 @@
    * Javascript class that mimics how WCF serializes a object of type MongoDB.Bson.ObjectId
    * and converts between that format and the standard 24 character representation.
    */
-  if (global.document) {
+  if (true || global.document) {
     ObjectId = (function () {
       var increment = 0;
       var pid = Math.floor(Math.random() * (32767));
